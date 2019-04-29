@@ -9,4 +9,11 @@ RUN apt-get update \
  && apt-get clean \
  && rm -r /var/lib/apt/lists/*
 
-#ENTRYPOINT ["/app/docker-entrypoint.sh"]
+VOLUME ["config"]
+
+COPY config /config
+COPY docker-entrypoint.sh /
+
+EXPOSE 80
+
+ENTRYPOINT ["/docker-entrypoint.sh"]
