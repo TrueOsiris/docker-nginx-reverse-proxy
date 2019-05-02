@@ -13,6 +13,7 @@ VOLUME ["nginx-conf"]
 
 COPY ./config /config
 COPY ./docker-entrypoint.sh /
+RUN chmod +x /docker-entrypoint.sh
 
 EXPOSE 80
 

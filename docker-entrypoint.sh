@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ ! -f /nginx/nginx.conf ]; then
+if [ ! -f /nginx-conf/nginx.conf ]; then
 	cp -r /config/* /nginx-conf/ 2>&1
 fi
 rm /etc/nginx/nginx.conf 2>&1
