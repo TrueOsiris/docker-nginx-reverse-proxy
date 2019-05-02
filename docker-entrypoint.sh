@@ -6,3 +6,5 @@ rm /etc/nginx/nginx.conf 2>&1
 ln -s /nginx-conf/nginx.conf /etc/nginx/nginx.conf 2>&1
 rm -R /etc/nginx/conf.d 2>&1
 ln -s /nginx-conf/conf.d /etc/nginx/conf.d 2>&1
+
+nginx -g 'daemon off;' 
