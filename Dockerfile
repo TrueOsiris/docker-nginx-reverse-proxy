@@ -11,8 +11,8 @@ RUN apt-get update \
 
 VOLUME ["nginx-conf"]
 
-COPY config /config
-COPY docker-entrypoint.sh /
+COPY ./config /config
+COPY ./docker-entrypoint.sh /
 
 EXPOSE 80
 
