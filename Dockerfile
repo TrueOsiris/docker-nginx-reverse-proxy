@@ -9,7 +9,7 @@ RUN apt-get update \
  && apt-get clean \
  && rm -r /var/lib/apt/lists/*
 
-VOLUME ["config"]
+VOLUME ["nginx-conf"]
 
 COPY config /config
 COPY docker-entrypoint.sh /
