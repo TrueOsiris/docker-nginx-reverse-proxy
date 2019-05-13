@@ -1,7 +1,7 @@
 # trueosiris/nginx-reverse-proxy
-## WORK IN PROGRESS
 
-Nginx reverse proxy + letsencrypt with wildcards &amp; godaddy dns
+
+Nginx reverse proxy
     
     docker run \
     --name nginx \
