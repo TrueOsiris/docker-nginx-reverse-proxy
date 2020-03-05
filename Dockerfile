@@ -2,7 +2,7 @@ FROM nginx:latest
 LABEL maintainer="Tim Chaubet tim@chaubet.be"
 
 # Install wget and install/updates certificates
-# update to 1.17.1
+# update to 1.17.9
 RUN apt-get update \
  && apt-get install -y \
     wget \
