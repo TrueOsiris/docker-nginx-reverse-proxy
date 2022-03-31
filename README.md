@@ -5,10 +5,10 @@ simple nginx container, setup for reverse proxy with each site as a separate, ma
 [![Docker Pulls](https://badgen.net/docker/pulls/trueosiris/nginx-reverse-proxy?icon=docker&label=pulls)](https://hub.docker.com/r/trueosiris/nginx-reverse-proxy/)
 [![Docker Stars](https://badgen.net/docker/stars/trueosiris/nginx-reverse-proxy?icon=docker&label=stars)](https://hub.docker.com/r/trueosiris/nginx-reverse-proxy/)
 [![Docker Image Size](https://badgen.net/docker/size/trueosiris/nginx-reverse-proxy?icon=docker&label=image%20size)](https://hub.docker.com/r/trueosiris/nginx-reverse-proxy/)
-![Github stars](https://badgen.net/nginx-reverse-proxyhub/stars/trueosiris/docker-nginx-reverse-proxy?icon=nginx-reverse-proxy&hub&label=stars)
-![Github forks](https://badgen.net/nginx-reverse-proxyhub/forks/trueosiris/docker-nginx-reverse-proxy?icon=nginx-reverse-proxy&hub&label=forks)
-![Github issues](https://img.shields.io/nginx-reverse-proxyhub/issues/TrueOsiris/docker-nginx-reverse-proxy)
-![Github last-commit](https://img.shields.io/nginx-reverse-proxyhub/last-commit/TrueOsiris/docker-nginx-reverse-proxy)
+![Github stars](https://badgen.net/github/stars/trueosiris/docker-nginx-reverse-proxy?icon=nginx-reverse-proxy&hub&label=stars)
+![Github forks](https://badgen.net/github/forks/trueosiris/docker-nginx-reverse-proxy?icon=nginx-reverse-proxy&hub&label=forks)
+![Github issues](https://img.shields.io/github/issues/TrueOsiris/docker-nginx-reverse-proxy)
+![Github last-commit](https://img.shields.io/github/last-commit/TrueOsiris/docker-nginx-reverse-proxy)
 
 ### environment variables
 
