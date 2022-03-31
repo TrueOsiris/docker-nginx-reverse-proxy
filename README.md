@@ -1,4 +1,5 @@
 # trueosiris/nginx-reverse-proxy
+simple nginx container, setup for reverse proxy with each site as a separate, manageable file.
 
 ![Trueosiris Rules](https://img.shields.io/badge/trueosiris-rules-f08060)
 [![Docker Pulls](https://badgen.net/docker/pulls/trueosiris/nginx-reverse-proxy?icon=docker&label=pulls)](https://hub.docker.com/r/trueosiris/nginx-reverse-proxy/)
